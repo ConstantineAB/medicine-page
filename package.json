@@ -10,7 +10,6 @@
   "scripts": {
     "heroku-prebuild": "npm install",
     "build": "webpack --mode production",
-    "dev": "webpack --mode development --watch --open",
     "start": "webpack-dev-server --mode development"
   },
   "keywords": [],
