@@ -105,7 +105,7 @@
     }
 }
 
-@media(min-width: 767px) {
+@media(min-width: 1275px) {
     .menu__body {
         display: none;
     }
@@ -123,7 +123,7 @@
         display: none;
     }
 }
-@media(max-width: 767px) {
+@media(max-width: 1275px) {
     .header {
         justify-content: flex-start;
         align-items: center;
@@ -262,6 +262,7 @@
         border-radius: 10px;
     }
     .menu__body__social-media {
+        max-width: 500px;
         display: flex;
         justify-content: space-around;
         a {
